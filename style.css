@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+/*Header*/
+.col-lg-2 {
+  display: flex;
+}
+
+.logo2 {
+  margin-left: 530%;
+}
+
+header {
+  background-color: #e0e0e0;
+  box-shadow: 0 2px 4px rgba(123, 255, 0, 0.1);
+  padding: 5px 0;
+  border-bottom: 2px;
+  border-bottom-style: groove;
+  border-color: rgb(0, 0, 0);
+  background-color: rgba(165, 165, 165, 0.4);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.logo {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.collapse {
+  margin-left: 50px;
+}
+
+.nav-link {
+  transition: all 0.25 ease-in-out;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid rgb(0, 183, 255);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+
+.nav-item .nav-link {
+  font-size: 20px;
+  color: rgb(6, 135, 241);
+  font-weight: bold;
+}
+
+/*Body*/
+.carousel-caption {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  box-shadow: 3px 3px 8px rgba(82, 157, 255, 0.3);
+  text-align: center;
+  background-color: rgba(165, 165, 165, 0.4);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.carousel-caption:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h5 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: black;
+}
+
+.carousel-caption p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.forcado {
+  width: 106%;
+}
+
+.forcada {
+  width: 107%;
+}
+
+.carousel-control-next {
+  color: black;
+}
+
+/*Footer*/
+.footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 0px;
+  height: 25px;
+  border-top: 3px;
+  border-top-color: black;
+  border-top-style: groove;
+  border-color: rgb(0, 0, 0);
+}
+
+.marquee {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+
